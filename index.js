@@ -1,6 +1,6 @@
 module.exports = {
-	extends: ['airbnb', 'schlagerkhan-base'],
-	rules:  {
+	extends: ['airbnb', './imports/general', './imports/rules'],
+	rules: {
 		// React
 		'react/forbid-prop-types': 0,
 		'react/jsx-indent': [2, 'tab'],
