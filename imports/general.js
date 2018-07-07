@@ -1,5 +1,5 @@
 module.exports = {
-	extends: ['./globals'].map(require.resolve),
+	extends: ['./globals', './rules'].map(require.resolve),
 	parser: 'babel-eslint',
 	plugins: ['jest'],
 	env: {

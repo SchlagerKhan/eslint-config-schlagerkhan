@@ -1,8 +1,5 @@
-const general = require('./imports/general');
-const rules = require('./imports/rules');
-
 module.exports = {
-	extends: ['airbnb', rules, general],
+	extends: ['eslint-config-airbnb', './imports/rules'].map(require.resolve),
 	rules: {
 		// React
 		'react/forbid-prop-types': 0,

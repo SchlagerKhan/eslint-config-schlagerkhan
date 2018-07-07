@@ -1,6 +1,3 @@
-const general = require('./imports/general');
-const rules = require('./imports/rules');
-
 module.exports = {
-	extends: ['airbnb-base', general, rules]
+	extends: ['eslint-config-airbnb-base', './imports/general'].map(require.resolve)
 };
