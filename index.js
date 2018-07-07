@@ -1,12 +1,6 @@
-const base = require('eslint-config-schlagerkhan-base');
-
 module.exports = {
-	extends: ['airbnb'],
-	parser: base.parser,
-	globals: base.globals,
-	plugins: base.plugins,
-	env: base.env,
-	rules: Object.assign({}, base.rules, {
+	extends: ['airbnb', 'schlagerkhan-base'],
+	rules:  {
 		// React
 		'react/forbid-prop-types': 0,
 		'react/jsx-indent': [2, 'tab'],
@@ -25,5 +19,5 @@ module.exports = {
 		// JSX-A11Y
 		'jsx-a11y/no-static-element-interactions': 0,
 		'jsx-a11y/anchor-is-valid': 0
-	})
+	}
 };
