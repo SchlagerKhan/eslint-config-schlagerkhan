@@ -24,11 +24,13 @@
 		"eslint-plugin-react": "^7.10.0"
 	},
 	"peerDependencies": {
-		"eslint-plugin-jsx-a11y": "^6.1.0",
-		"eslint-plugin-react": "^7.10.0"
+		"eslint": "^4.19.1"
 	},
 	"dependencies": {
 		"eslint-config-airbnb": "^17.0.0",
-		"eslint-config-schlagerkhan-base": "github:schlagerkhan/eslint-config-schlagerkhan-base"
+		"eslint-plugin-import": "^2.13.0",
+		"eslint-plugin-jest": "^21.17.0",
+		"eslint-plugin-jsx-a11y": "^6.1.0",
+		"eslint-plugin-react": "^7.10.0"
 	}
 }
