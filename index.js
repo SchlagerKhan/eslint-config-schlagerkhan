@@ -1,5 +1,8 @@
+const general = require('./imports/general');
+const rules = require('./imports/rules');
+
 module.exports = {
-	extends: ['airbnb', './imports/general', './imports/rules'],
+	extends: ['airbnb', rules, general],
 	rules: {
 		// React
 		'react/forbid-prop-types': 0,
