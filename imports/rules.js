@@ -8,7 +8,7 @@ module.exports = {
 		'no-unused-vars': 1,
 		'no-return-assign': 0,
 		'no-use-before-define': 0,
-		'no-restricted-syntax': 1,
+		'no-restricted-syntax': 0,
 		'no-param-reassign': 0,
 
 		'no-mixed-operators': 0,
@@ -26,6 +26,8 @@ module.exports = {
 		radix: 0,
 
 		// Code Style
+		'func-names': 0,
+
 		'max-len': [1, { code: 120 }],
 
 		'no-tabs': 0,
@@ -34,6 +36,16 @@ module.exports = {
 		camelcase: 0,
 
 		'no-underscore-dangle': 0,
+		'space-before-function-paren': 0,
+
+		'object-curly-newline': [
+			1,
+			{
+				multiline: true,
+				consistent: true,
+				minProperties: 5,
+			},
+		],
 
 		// Imports
 		'import/prefer-default-export': 0,
@@ -42,6 +54,6 @@ module.exports = {
 		'import/no-named-as-default-member': 0,
 		'import/no-extraneous-dependencies': 0,
 		'import/named': 0,
-		'import/no-cycle': 0
-	}
+		'import/no-cycle': 0,
+	},
 };
