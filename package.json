@@ -17,19 +17,17 @@
 	},
 	"homepage": "https://github.com/SchlagerKhan/eslint-config-schlagerkhan#readme",
 	"devDependencies": {
-		"babel-eslint": "^10.0.1",
-		"eslint": "^5.7.0",
-		"eslint-config-schlagerkhan": "schlagerkhan/eslint-config-schlagerkhan"
+		"babel-eslint": "^10.0.1"
 	},
 	"peerDependencies": {
-		"eslint": "^5.7.0"
+		"eslint": "^5.15.3"
 	},
 	"dependencies": {
 		"eslint-config-airbnb": "^17.1.0",
 		"eslint-config-airbnb-base": "^13.1.0",
-		"eslint-plugin-import": "^2.14.0",
+		"eslint-plugin-import": "^2.16.0",
 		"eslint-plugin-jest": "^21.25.0",
-		"eslint-plugin-jsx-a11y": "^6.1.2",
-		"eslint-plugin-react": "^7.11.1"
+		"eslint-plugin-jsx-a11y": "^6.2.1",
+		"eslint-plugin-react": "^7.12.4"
 	}
 }
