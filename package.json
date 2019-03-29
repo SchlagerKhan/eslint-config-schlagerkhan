@@ -1,6 +1,6 @@
 {
 	"name": "eslint-config-schlagerkhan",
-	"version": "0.0.3",
+	"version": "0.0.4",
 	"description": "Eslint config extending schlagerkhan-base and airbnb",
 	"main": "index.js",
 	"scripts": {
