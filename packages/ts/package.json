@@ -4,5 +4,8 @@
 	"license": "ISC",
 	"dependencies": {
 		"eslint-config-airbnb-typescript": "^4.0.0"
+	},
+	"publishConfig": {
+		"access": "public"
 	}
 }
