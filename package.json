@@ -8,6 +8,9 @@
 	"workspaces": [
 		"packages/*"
 	],
+	"publishConfig": {
+		"access": "public"
+	},
 	"devDependencies": {
 		"babel-eslint": "^10.0.2",
 		"lerna": "^3.15.0"
