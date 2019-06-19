@@ -1,7 +1,9 @@
+console.log(require.main.filename);
+
 // prettier-ignore
 module.exports = {
 	extends: [
 		'eslint-config-airbnb-base',
-		'./imports/general',
+		'imports/general',
 	].map(require.resolve),
 };
