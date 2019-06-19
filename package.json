@@ -1,11 +1,7 @@
 {
-	"name": "eslint-config-schlagerkhan",
-	"version": "0.0.4",
-	"description": "Eslint config extending schlagerkhan-base and airbnb",
+	"private": true,
+	"description": "Eslint config schlagerkhan",
 	"main": "index.js",
-	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1"
-	},
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/SchlagerKhan/eslint-config-schlagerkhan.git"
@@ -16,18 +12,23 @@
 		"url": "https://github.com/SchlagerKhan/eslint-config-schlagerkhan/issues"
 	},
 	"homepage": "https://github.com/SchlagerKhan/eslint-config-schlagerkhan#readme",
+	"workspaces": [
+		"base",
+		"react",
+		"ts",
+		"ts-react"
+	],
 	"devDependencies": {
-		"babel-eslint": "^10.0.1"
+		"babel-eslint": "^10.0.2"
 	},
 	"peerDependencies": {
 		"eslint": "^5.15.3"
 	},
 	"dependencies": {
-		"eslint-config-airbnb": "^17.1.0",
+		"eslint": "^5.16.0",
 		"eslint-config-airbnb-base": "^13.1.0",
-		"eslint-plugin-import": "^2.16.0",
+		"eslint-plugin-import": "^2.17.3",
 		"eslint-plugin-jest": "^21.25.0",
-		"eslint-plugin-jsx-a11y": "^6.2.1",
-		"eslint-plugin-react": "^7.12.4"
+		"eslint-plugin-jsx-a11y": "^6.2.1"
 	}
 }
