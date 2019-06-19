@@ -1,6 +1,6 @@
 {
 	"name": "@schlagerkhan/eslint-config-ts",
-	"version": "0.0.1",
+	"version": "0.1.0",
 	"license": "ISC",
 	"dependencies": {
 		"eslint-config-airbnb-typescript": "^4.0.0"
