@@ -1,4 +1,4 @@
-module.exports = {
+export const rules = {
 	rules: {
 		// General
 		'no-console': 0,

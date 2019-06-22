@@ -1,5 +1,4 @@
-module.exports = {
-	extends: ['./globals', './rules'].map(require.resolve),
+export const general = {
 	parser: 'babel-eslint',
 	plugins: ['jest'],
 	env: {

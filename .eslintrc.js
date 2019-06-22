@@ -1,3 +1,3 @@
 module.exports = {
-	extends: '@schlagerkhan/eslint-config-js/base',
+	extends: '@schlagerkhan/eslint-config-js',
 };
