@@ -1,6 +1,6 @@
 {
 	"name": "@schlagerkhan/eslint-config-ts",
-	"version": "0.1.4",
+	"version": "0.1.5",
 	"license": "ISC",
 	"scripts": {
 		"build": "npx rollup --config"
