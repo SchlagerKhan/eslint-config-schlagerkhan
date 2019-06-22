@@ -1,13 +1,13 @@
 {
 	"name": "@schlagerkhan/eslint-config-ts",
-	"version": "0.1.3",
+	"version": "0.1.4",
 	"license": "ISC",
 	"scripts": {
 		"build": "npx rollup --config"
 	},
 	"main": "lib/index.js",
 	"dependencies": {
-		"@schlagerkhan/eslint-config-js": "^0.1.3",
+		"@schlagerkhan/eslint-config-js": "^0.1.4",
 		"@typescript-eslint/eslint-plugin": "^1.10.2",
 		"@typescript-eslint/parser": "^1.10.2",
 		"eslint": "^5.16.0",
