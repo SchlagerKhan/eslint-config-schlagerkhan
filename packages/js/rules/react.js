@@ -1,4 +1,4 @@
-export const react = {
+module.exports = {
 	rules: {
 		// React
 		'react/forbid-prop-types': 0,
