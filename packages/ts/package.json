@@ -1,6 +1,6 @@
 {
 	"name": "@schlagerkhan/eslint-config-ts",
-	"version": "0.1.6",
+	"version": "0.1.7",
 	"license": "ISC",
 	"scripts": {
 		"build": "npx rollup --config"
@@ -10,7 +10,7 @@
 		"access": "public"
 	},
 	"dependencies": {
-		"@schlagerkhan/eslint-config-js": "^0.1.4",
+		"@schlagerkhan/eslint-config-js": "^0.1.7",
 		"@typescript-eslint/parser": "^1.10.2",
 		"eslint-config-airbnb-typescript": "^4.0.0"
 	},
