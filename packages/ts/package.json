@@ -6,16 +6,16 @@
 		"build": "npx rollup --config"
 	},
 	"main": "lib/index.js",
-	"dependencies": {
-		"@schlagerkhan/eslint-config-js": "^0.1.4",
-		"@typescript-eslint/eslint-plugin": "^1.10.2",
-		"@typescript-eslint/parser": "^1.10.2",
-		"eslint-config-airbnb-typescript": "^4.0.0"
-	},
 	"publishConfig": {
 		"access": "public"
 	},
+	"dependencies": {
+		"@schlagerkhan/eslint-config-js": "^0.1.4",
+		"@typescript-eslint/parser": "^1.10.2",
+		"eslint-config-airbnb-typescript": "^4.0.0"
+	},
 	"peerDependencies": {
+		"@typescript-eslint/eslint-plugin": "^1.10.2",
 		"typescript": "^3.5.2"
 	}
 }
