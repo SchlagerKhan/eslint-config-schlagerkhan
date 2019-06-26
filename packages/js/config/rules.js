@@ -28,7 +28,7 @@ module.exports = {
 		// Code Style
 		'func-names': 0,
 
-		'max-len': [1, { code: 120 }],
+		'max-len': [1, { code: 150 }],
 
 		'no-tabs': 0,
 		indent: [2, 'tab', { SwitchCase: 1 }],
@@ -43,17 +43,8 @@ module.exports = {
 			{
 				multiline: true,
 				consistent: true,
-				minProperties: 5,
-			},
-		],
-
-		// Imports
-		'import/prefer-default-export': 0,
-		'import/no-dynamic-require': 0,
-		'import/no-named-as-default': 0,
-		'import/no-named-as-default-member': 0,
-		'import/no-extraneous-dependencies': 0,
-		'import/named': 0,
-		'import/no-cycle': 0,
-	},
+				minProperties: 5
+			}
+		]
+	}
 };
