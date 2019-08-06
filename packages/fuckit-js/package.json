@@ -1,6 +1,6 @@
 {
 	"name": "@schlagerkhan/eslint-config-fuckit-js",
-	"version": "0.2.4",
+	"version": "0.2.5",
 	"main": "index.js",
 	"license": "ISC",
 	"repository": {
