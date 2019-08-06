@@ -1,6 +1,6 @@
 {
 	"name": "@schlagerkhan/eslint-config-shared",
-	"version": "0.2.3",
+	"version": "0.2.4",
 	"main": "index.js",
 	"license": "ISC",
 	"repository": {
