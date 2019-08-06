@@ -16,11 +16,14 @@
 	"dependencies": {
 		"@schlagerkhan/eslint-config-js": "^0.2.4",
 		"@schlagerkhan/eslint-config-shared": "^0.2.4",
-		"@typescript-eslint/parser": "^1.10.2",
 		"eslint-config-airbnb-typescript": "^4.0.0"
 	},
 	"peerDependencies": {
 		"@typescript-eslint/eslint-plugin": "^1.10.2",
+		"@typescript-eslint/parser": "^1.10.2",
 		"typescript": "^3.5.2"
+	},
+	"devDependencies": {
+		"typescript": "^3.5.3"
 	}
 }
