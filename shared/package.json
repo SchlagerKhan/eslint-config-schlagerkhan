@@ -1,6 +1,6 @@
 {
-	"name": "shared",
-	"version": "0.2.0",
+	"name": "@schlagerkhan/eslint-config-shared",
+	"version": "0.2.2",
 	"main": "index.js",
 	"license": "MIT"
 }
