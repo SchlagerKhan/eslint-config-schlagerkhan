@@ -15,6 +15,7 @@
 	},
 	"dependencies": {
 		"@schlagerkhan/eslint-config-js": "^0.2.2",
+		"@schlagerkhan/eslint-config-shared": "^0.2.3",
 		"@typescript-eslint/parser": "^1.10.2",
 		"eslint-config-airbnb-typescript": "^4.0.0"
 	},

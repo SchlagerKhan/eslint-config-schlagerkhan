@@ -4,9 +4,13 @@ module.exports = {
 		'airbnb-typescript/base',
 		'plugin:import/typescript',
 
-		require.resolve('shared/base'),
+		'@schlagerkhan/eslint-config-shared/base',
 		require.resolve('./config/general'),
 		require.resolve('./rules/general'),
+
+		"prettier",
+		"prettier/babel",
+		"prettier/@typescript-eslint",
 	],
 }
 

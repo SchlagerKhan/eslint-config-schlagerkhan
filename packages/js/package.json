@@ -14,6 +14,7 @@
 		"lint": "npx eslint ."
 	},
 	"dependencies": {
+		"@schlagerkhan/eslint-config-shared": "^0.2.3",
 		"eslint-config-airbnb": "^17.1.0",
 		"eslint-config-airbnb-base": "^13.1.0",
 		"eslint-config-prettier": "^5.0.0"
