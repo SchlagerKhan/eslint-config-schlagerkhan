@@ -2,5 +2,12 @@
 	"name": "@schlagerkhan/eslint-config-shared",
 	"version": "0.2.2",
 	"main": "index.js",
-	"license": "MIT"
+	"license": "ISC",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/SchlagerKhan/eslint-config-schlagerkhan.git"
+	},
+	"publishConfig": {
+		"access": "public"
+	}
 }
