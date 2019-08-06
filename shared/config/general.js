@@ -5,7 +5,7 @@ module.exports = {
 		'plugin:promise/recommended',
 		'plugin:prettier/recommended'
 	],
-	plugins: ['jest'],
+	plugins: ['jest', 'prettier'],
 	env: {
 		jest: true
 	}
