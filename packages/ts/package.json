@@ -2,12 +2,16 @@
 	"name": "@schlagerkhan/eslint-config-ts",
 	"version": "0.2.0",
 	"license": "ISC",
-	"scripts": {
-		"lint": "npx eslint ."
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/SchlagerKhan/eslint-config-schlagerkhan.git"
 	},
-	"main": "index.js",
 	"publishConfig": {
 		"access": "public"
+	},
+	"main": "index.js",
+	"scripts": {
+		"lint": "npx eslint ."
 	},
 	"dependencies": {
 		"@schlagerkhan/eslint-config-js": "^0.2.0",

@@ -1,17 +1,10 @@
 {
 	"name": "@schlagerkhan/eslint-config",
 	"private": true,
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/SchlagerKhan/eslint-config-schlagerkhan.git"
-	},
 	"workspaces": [
 		"packages/*",
 		"shared"
 	],
-	"publishConfig": {
-		"access": "public"
-	},
 	"scripts": {},
 	"devDependencies": {
 		"@typescript-eslint/eslint-plugin": "^1.10.2",
