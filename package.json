@@ -12,9 +12,7 @@
 	"publishConfig": {
 		"access": "public"
 	},
-	"scripts": {
-		"deploy": "lerna publish --only packages/*"
-	},
+	"scripts": {},
 	"devDependencies": {
 		"@typescript-eslint/eslint-plugin": "^1.10.2",
 		"@typescript-eslint/parser": "^1.10.2",
