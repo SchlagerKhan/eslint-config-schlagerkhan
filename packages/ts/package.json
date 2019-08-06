@@ -1,6 +1,6 @@
 {
 	"name": "@schlagerkhan/eslint-config-ts",
-	"version": "0.1.8",
+	"version": "0.2.0",
 	"license": "ISC",
 	"scripts": {
 		"lint": "npx eslint ."
@@ -10,7 +10,7 @@
 		"access": "public"
 	},
 	"dependencies": {
-		"@schlagerkhan/eslint-config-js": "^0.1.8",
+		"@schlagerkhan/eslint-config-js": "^0.2.0",
 		"@typescript-eslint/parser": "^1.10.2",
 		"eslint-config-airbnb-typescript": "^4.0.0"
 	},
