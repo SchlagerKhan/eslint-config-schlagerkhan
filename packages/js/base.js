@@ -1,8 +1,16 @@
 // prettier-ignore
 module.exports = {
 	extends: [
-		require.resolve('eslint-config-airbnb-base'),
-		require.resolve('./clean.base'),
+		'airbnb-base',
+		// require.resolve('eslint-config-airbnb-base'),
+		'plugin:jest/recommended',
+		'plugin:promise/recommended',
+		
+		require.resolve('shared/base'),
+		require.resolve('./config/general'),
+
+		// require.resolve('eslint-config-prettier'),
+		"prettier",
+		"prettier/babel"
 	],
-	parser: 'babel-eslint',
 };

@@ -1,0 +1,21 @@
+{
+	"name": "@schlagerkhan/eslint-config-fuckit",
+	"version": "0.0.1",
+	"main": "index.js",
+	"license": "ISC",
+	"dependencies": {
+		"@schlagerkhan/eslint-config-js": "^0.1.8",
+		"@schlagerkhan/eslint-config-ts": "^0.1.8",
+		"@typescript-eslint/eslint-plugin": "^1.13.0",
+		"@typescript-eslint/parser": "^1.13.0",
+		"eslint": "^5.16.0",
+		"eslint-plugin-import": "^2.18.2",
+		"eslint-plugin-jsx-a11y": "^6.2.3",
+		"eslint-plugin-prettier": "^3.1.0",
+		"eslint-plugin-react": "^7.14.3"
+	},
+	"peerDependencies": {
+		"prettier": "^1.18.2",
+		"typescript": "^3.5.3"
+	}
+}

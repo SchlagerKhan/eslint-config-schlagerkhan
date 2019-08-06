@@ -3,9 +3,9 @@
 	"version": "0.1.8",
 	"license": "ISC",
 	"scripts": {
-		"build": "npx rollup --config"
+		"lint": "npx eslint ."
 	},
-	"main": "lib/index.js",
+	"main": "index.js",
 	"publishConfig": {
 		"access": "public"
 	},
