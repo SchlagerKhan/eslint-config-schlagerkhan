@@ -38,6 +38,6 @@ module.exports = {
 		'space-before-function-paren': 0,
 
 		'lines-between-class-members': 0,
-		'object-curly-newline': [1, { multiline: true, consistent: true }]
-	}
+		'object-curly-newline': [1, { multiline: true, consistent: true }],
+	},
 };

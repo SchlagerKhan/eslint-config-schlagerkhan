@@ -1,14 +1,13 @@
-// prettier-ignore
 module.exports = {
 	extends: [
+		// prettier-ignore
 		'airbnb',
 
-		require.resolve('./base'),
-
 		'@schlagerkhan/eslint-config-shared',
+		require.resolve('./config/general'),
 
-		"prettier",
-		"prettier/babel",
-		"prettier/react",
+		'prettier',
+		'prettier/babel',
+		'prettier/react',
 	],
 };

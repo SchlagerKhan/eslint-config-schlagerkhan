@@ -1,6 +1,5 @@
 module.exports = {
 	rules: {
-		// Imports
 		'import/prefer-default-export': 0,
 		'import/no-dynamic-require': 0,
 		'import/no-named-as-default': 0,

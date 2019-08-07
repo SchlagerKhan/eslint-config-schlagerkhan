@@ -10,6 +10,9 @@
 	"publishConfig": {
 		"access": "public"
 	},
+	"scripts": {
+		"lint": "eslint ."
+	},
 	"dependencies": {
 		"@schlagerkhan/eslint-config-fuckit-js": "^0.2.7",
 		"@schlagerkhan/eslint-config-ts": "^0.2.7",

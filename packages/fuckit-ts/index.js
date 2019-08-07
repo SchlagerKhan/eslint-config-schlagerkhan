@@ -1,3 +1,3 @@
 module.exports = {
-	extends: ['@schlagerkhan/eslint-config-ts']
+	extends: ['@schlagerkhan/eslint-config-ts'],
 };

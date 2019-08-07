@@ -3,6 +3,9 @@
 	"version": "0.2.7",
 	"main": "index.js",
 	"license": "ISC",
+	"scripts": {
+		"lint": "eslint ."
+	},
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/SchlagerKhan/eslint-config-schlagerkhan.git"

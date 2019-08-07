@@ -15,7 +15,6 @@ module.exports = {
 		// JSX
 		'jsx-quotes': [1, 'prefer-single'],
 		'react/destructuring-assignment': 0,
-
 		'react/jsx-one-expression-per-line': 0,
 		'react/prop-types': [1, { ignore: ['children'], skipUndeclared: true }],
 
