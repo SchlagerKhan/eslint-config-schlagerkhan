@@ -1,6 +1,6 @@
 {
 	"name": "@schlagerkhan/eslint-config-fuckit-ts",
-	"version": "0.2.7",
+	"version": "0.2.8",
 	"main": "index.js",
 	"license": "ISC",
 	"repository": {
@@ -14,8 +14,8 @@
 		"lint": "eslint ."
 	},
 	"dependencies": {
-		"@schlagerkhan/eslint-config-fuckit-js": "^0.2.7",
-		"@schlagerkhan/eslint-config-ts": "^0.2.7",
+		"@schlagerkhan/eslint-config-fuckit-js": "^0.2.8",
+		"@schlagerkhan/eslint-config-ts": "^0.2.8",
 		"@typescript-eslint/eslint-plugin": "^1.13.0",
 		"@typescript-eslint/parser": "^1.13.0"
 	},

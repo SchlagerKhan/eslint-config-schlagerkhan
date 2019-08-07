@@ -1,6 +1,6 @@
 {
 	"name": "@schlagerkhan/eslint-config-js",
-	"version": "0.2.7",
+	"version": "0.2.8",
 	"license": "ISC",
 	"repository": {
 		"type": "git",
@@ -14,7 +14,7 @@
 		"lint": "npx eslint ."
 	},
 	"dependencies": {
-		"@schlagerkhan/eslint-config-shared": "^0.2.7",
+		"@schlagerkhan/eslint-config-shared": "^0.2.8",
 		"eslint-config-airbnb": "^17.1.0",
 		"eslint-config-airbnb-base": "^13.1.0",
 		"eslint-config-prettier": "^5.0.0"
