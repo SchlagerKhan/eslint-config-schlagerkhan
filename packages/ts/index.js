@@ -11,5 +11,7 @@ module.exports = {
 		'prettier/babel',
 		'prettier/react',
 		'prettier/@typescript-eslint',
-	],
+
+		'@schlagerkhan/eslint-config-shared/fix'
+	]
 };

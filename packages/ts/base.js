@@ -11,7 +11,9 @@ module.exports = {
 		'prettier',
 		'prettier/babel',
 		'prettier/@typescript-eslint',
-	],
+
+		'@schlagerkhan/eslint-config-shared/fix'
+	]
 };
 
 // Checkout https://dev.to/benweiser/how-to-set-up-eslint-typescript-prettier-with-create-react-app-3675

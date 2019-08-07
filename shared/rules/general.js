@@ -28,16 +28,18 @@ module.exports = {
 
 		// Code Style
 		camelcase: 0,
-		'func-names': 0,
+		'no-underscore-dangle': 0,
 
+		'func-names': 0,
+		'arrow-parens': [2, 'as-needed', { requireForBlockBody: true }],
+		'space-before-function-paren': 0,
+
+		quotes: [1, 'single'],
 		'max-len': [1, { code: 150 }],
 		'no-tabs': 0,
 		indent: [2, 'tab', { SwitchCase: 1 }],
 
-		'no-underscore-dangle': 0,
-		'space-before-function-paren': 0,
-
 		'lines-between-class-members': 0,
-		'object-curly-newline': [1, { multiline: true, consistent: true }],
-	},
+		'object-curly-newline': [1, { multiline: true, consistent: true }]
+	}
 };

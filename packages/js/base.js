@@ -8,5 +8,7 @@ module.exports = {
 
 		'prettier',
 		'prettier/babel',
-	],
+
+		'@schlagerkhan/eslint-config-shared/fix'
+	]
 };
