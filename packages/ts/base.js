@@ -7,7 +7,7 @@ module.exports = {
 		'@schlagerkhan/eslint-config-shared/base',
 		require.resolve('./config/general'),
 		require.resolve('./rules/general'),
-	]
+	],
 };
 
 // Checkout https://dev.to/benweiser/how-to-set-up-eslint-typescript-prettier-with-create-react-app-3675

@@ -5,5 +5,5 @@ module.exports = {
 
 		'@schlagerkhan/eslint-config-shared',
 		require.resolve('./config/general'),
-	]
+	],
 };

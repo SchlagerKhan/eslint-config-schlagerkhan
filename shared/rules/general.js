@@ -40,6 +40,6 @@ module.exports = {
 		indent: [2, 'tab', { SwitchCase: 1 }],
 
 		'lines-between-class-members': 0,
-		'object-curly-newline': [1, { multiline: true, consistent: true }]
-	}
+		'object-curly-newline': [1, { multiline: true, consistent: true }],
+	},
 };
