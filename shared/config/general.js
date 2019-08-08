@@ -7,7 +7,4 @@ module.exports = {
 		'plugin:promise/recommended',
 		'plugin:prettier/recommended',
 	],
-	env: {
-		jest: true,
-	},
 };
