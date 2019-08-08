@@ -1,6 +1,6 @@
 {
 	"name": "@schlagerkhan/eslint-config-ts",
-	"version": "0.2.9",
+	"version": "0.2.10",
 	"license": "ISC",
 	"repository": {
 		"type": "git",
@@ -14,8 +14,8 @@
 		"lint": "npx eslint ."
 	},
 	"dependencies": {
-		"@schlagerkhan/eslint-config-js": "^0.2.9",
-		"@schlagerkhan/eslint-config-shared": "^0.2.9",
+		"@schlagerkhan/eslint-config-js": "^0.2.10",
+		"@schlagerkhan/eslint-config-shared": "^0.2.10",
 		"eslint-config-airbnb-typescript": "^4.0.0"
 	},
 	"peerDependencies": {
