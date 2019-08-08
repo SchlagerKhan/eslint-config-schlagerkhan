@@ -7,12 +7,6 @@ module.exports = {
 		'@schlagerkhan/eslint-config-shared/base',
 		require.resolve('./config/general'),
 		require.resolve('./rules/general'),
-
-		'prettier',
-		'prettier/babel',
-		'prettier/@typescript-eslint',
-
-		'@schlagerkhan/eslint-config-shared/fix'
 	]
 };
 

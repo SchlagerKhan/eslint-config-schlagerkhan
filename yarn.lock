@@ -915,6 +915,21 @@
     universal-user-agent "^3.0.0"
     url-template "^2.0.8"
 
+"@schlagerkhan/eslint-config-fuckit-js@^0.2.8":
+  version "0.2.8"
+  resolved "https://registry.yarnpkg.com/@schlagerkhan/eslint-config-fuckit-js/-/eslint-config-fuckit-js-0.2.8.tgz#97fb79e490e13b71b07bd760e46676888e81e4c3"
+  integrity sha512-d+ISuTDgyr05HT1SQDFEfuF8HSXoop9X6sSt8HQWiXh0etLBk+NWEfh+LpB+f9BoHKDLuhGJ30s+aTnaLrcASg==
+  dependencies:
+    "@schlagerkhan/eslint-config-js" "^0.2.8"
+    babel-eslint "^10.0.2"
+    eslint "^5.16.0"
+    eslint-plugin-import "^2.18.2"
+    eslint-plugin-jest "^22.14.1"
+    eslint-plugin-jsx-a11y "^6.2.3"
+    eslint-plugin-prettier "^3.1.0"
+    eslint-plugin-promise "^4.2.1"
+    eslint-plugin-react "^7.14.3"
+
 "@types/eslint-visitor-keys@^1.0.0":
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/@types/eslint-visitor-keys/-/eslint-visitor-keys-1.0.0.tgz#1ee30d79544ca84d68d4b3cdb0af4f205663dd2d"

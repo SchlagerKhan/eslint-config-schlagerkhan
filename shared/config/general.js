@@ -1,3 +1,5 @@
+// The rest of the plugins is added by airbnb
+
 module.exports = {
 	extends: [
 		// prettier-ignore
@@ -5,7 +7,6 @@ module.exports = {
 		'plugin:promise/recommended',
 		'plugin:prettier/recommended',
 	],
-	plugins: ['jest', 'prettier'],
 	env: {
 		jest: true,
 	},
