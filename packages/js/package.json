@@ -16,8 +16,7 @@
 	"dependencies": {
 		"@schlagerkhan/eslint-config-shared": "^0.2.9",
 		"eslint-config-airbnb": "^17.1.0",
-		"eslint-config-airbnb-base": "^13.1.0",
-		"eslint-config-prettier": "^5.0.0"
+		"eslint-config-airbnb-base": "^13.1.0"
 	},
 	"peerDependencies": {
 		"babel-eslint": "^10.0.2",

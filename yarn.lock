@@ -2077,13 +2077,6 @@ eslint-config-airbnb@^17.1.0:
     object.assign "^4.1.0"
     object.entries "^1.1.0"
 
-eslint-config-prettier@^5.0.0:
-  version "5.1.0"
-  resolved "https://registry.yarnpkg.com/eslint-config-prettier/-/eslint-config-prettier-5.1.0.tgz#bf29442e7c818236a77acfe2241ec991299f9bf1"
-  integrity sha512-+tpiaLm3wl6fPW5nq0dDyVowQM0FT61lAdWZ+sDWgk6kKzgbOnCDwlcbwI38cyCBhq+Z3ret5Iofp6/gZpO0zw==
-  dependencies:
-    get-stdin "^6.0.0"
-
 eslint-import-resolver-node@^0.3.2:
   version "0.3.2"
   resolved "https://registry.yarnpkg.com/eslint-import-resolver-node/-/eslint-import-resolver-node-0.3.2.tgz#58f15fb839b8d0576ca980413476aab2472db66a"
@@ -2118,9 +2111,9 @@ eslint-plugin-import@^2.17.3, eslint-plugin-import@^2.18.2:
     resolve "^1.11.0"
 
 eslint-plugin-jest@^22.14.1, eslint-plugin-jest@^22.7.1:
-  version "22.14.1"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-jest/-/eslint-plugin-jest-22.14.1.tgz#32287dade9bc0a1920c61e25a71cf11363d78015"
-  integrity sha512-mpLjhADl+HjagrlaGNx95HIji089S18DhnU/Ee8P8VP+dhEnuEzb43BXEaRmDgQ7BiSUPcSCvt1ydtgPkjOF/Q==
+  version "22.15.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-jest/-/eslint-plugin-jest-22.15.0.tgz#fe70bfff7eeb47ca0ab229588a867f82bb8592c5"
+  integrity sha512-hgnPbSqAIcLLS9ePb12hNHTRkXnkVaCfOwCt2pzQ8KpOKPWGA4HhLMaFN38NBa/0uvLfrZpcIRjT+6tMAfr58Q==
   dependencies:
     "@typescript-eslint/experimental-utils" "^1.13.0"
 
@@ -2582,11 +2575,6 @@ get-stdin@^4.0.1:
   version "4.0.1"
   resolved "https://registry.yarnpkg.com/get-stdin/-/get-stdin-4.0.1.tgz#b968c6b0a04384324902e8bf1a5df32579a450fe"
   integrity sha1-uWjGsKBDhDJJAui/Gl3zJXmkUP4=
-
-get-stdin@^6.0.0:
-  version "6.0.0"
-  resolved "https://registry.yarnpkg.com/get-stdin/-/get-stdin-6.0.0.tgz#9e09bf712b360ab9225e812048f71fde9c89657b"
-  integrity sha512-jp4tHawyV7+fkkSKyvjuLZswblUtz+SQKzSWnBbii16BuZksJlU1wuBYXY75r+duh/llF1ur6oNwi+2ZzjKZ7g==
 
 get-stream@^4.0.0, get-stream@^4.1.0:
   version "4.1.0"
