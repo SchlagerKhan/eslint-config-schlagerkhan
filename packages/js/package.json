@@ -15,7 +15,7 @@
 	},
 	"dependencies": {
 		"@schlagerkhan/eslint-config-shared": "^0.2.10",
-		"eslint-config-airbnb": "^17.1.0",
+		"eslint-config-airbnb": "^17.1.1",
 		"eslint-config-airbnb-base": "^13.1.0"
 	},
 	"peerDependencies": {
