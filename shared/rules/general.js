@@ -31,11 +31,12 @@ module.exports = {
 		'no-underscore-dangle': 0,
 
 		'func-names': 0,
-		'arrow-parens': [2, 'as-needed', { requireForBlockBody: true }],
+		'arrow-parens': [1, 'always'],
+		'arrow-body-style': [1, 'always'],
 		'space-before-function-paren': 0,
 
 		quotes: [1, 'single'],
-		'max-len': [1, { code: 150 }],
+		'max-len': 0,
 		'no-tabs': 0,
 		indent: [2, 'tab', { SwitchCase: 1 }],
 
