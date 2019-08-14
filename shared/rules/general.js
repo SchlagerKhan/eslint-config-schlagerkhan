@@ -32,7 +32,7 @@ module.exports = {
 
 		'func-names': 0,
 		'arrow-parens': [1, 'always'],
-		'arrow-body-style': [1, 'always'],
+		'arrow-body-style': 0,
 		'space-before-function-paren': 0,
 
 		quotes: [1, 'single'],
