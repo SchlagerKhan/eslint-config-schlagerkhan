@@ -1,5 +1,5 @@
 {
-	"name": "@schlagerkhan/eslint-config-fuckit-ts",
+	"name": "@schlagerkhan/eslint-fuckit-ts",
 	"version": "0.2.12",
 	"main": "index.js",
 	"license": "ISC",
