@@ -5,4 +5,8 @@ module.exports = {
 			legacyDecorators: true,
 		},
 	},
+	plugins: ['jest', 'promise'],
+	env: {
+		'jest/globals': true,
+	},
 };
