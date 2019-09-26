@@ -1,3 +1,3 @@
 module.exports = {
-  extends: "schlagerkhan"
+	extends: '@schlagerkhan/js/base',
 };

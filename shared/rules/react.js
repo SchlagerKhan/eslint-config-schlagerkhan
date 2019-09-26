@@ -15,9 +15,8 @@ module.exports = {
 		// JSX
 		'jsx-quotes': [1, 'prefer-single'],
 		'react/destructuring-assignment': 0,
-
-		'react/jsx-one-expression-per-line': 0,
-		'react/prop-types': [1, { ignore: 'children', skipUndeclared: true }],
+		'react/jsx-one-expression-per-line': [1, { allow: 'literal' }],
+		'react/prop-types': [1, { ignore: ['children'], skipUndeclared: true }],
 
 		// JSX-A11Y
 		'jsx-a11y/no-static-element-interactions': 0,

@@ -1,0 +1,25 @@
+{
+	"name": "@schlagerkhan/eslint-config-ts",
+	"version": "0.2.15",
+	"license": "ISC",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/SchlagerKhan/eslint-config-schlagerkhan.git"
+	},
+	"publishConfig": {
+		"access": "public"
+	},
+	"main": "index.js",
+	"scripts": {
+		"lint": "npx eslint ."
+	},
+	"dependencies": {
+		"@schlagerkhan/eslint-config-js": "^0.2.15",
+		"@schlagerkhan/eslint-config-shared": "^0.2.14",
+		"eslint-config-airbnb-typescript": "^4.0.1"
+	},
+	"peerDependencies": {
+		"@typescript-eslint/eslint-plugin": "^1.13.0",
+		"@typescript-eslint/parser": "^1.13.0"
+	}
+}
