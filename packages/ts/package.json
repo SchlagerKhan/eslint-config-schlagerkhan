@@ -1,6 +1,6 @@
 {
 	"name": "@schlagerkhan/eslint-config-ts",
-	"version": "0.3.0",
+	"version": "0.3.1",
 	"license": "ISC",
 	"repository": {
 		"type": "git",
@@ -14,7 +14,7 @@
 		"lint": "npx eslint ."
 	},
 	"devDependencies": {
-		"@schlagerkhan/eslint-config-js": "^0.3.0",
+		"@schlagerkhan/eslint-config-js": "^0.3.1",
 		"@typescript-eslint/eslint-plugin": "^2.8.0",
 		"@typescript-eslint/parser": "^2.8.0",
 		"eslint": "^6.7.0",
