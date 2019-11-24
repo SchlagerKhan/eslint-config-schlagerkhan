@@ -13,7 +13,7 @@
 	"scripts": {
 		"lint": "npx eslint ."
 	},
-	"dependencies": {
+	"devDependencies": {
 		"@schlagerkhan/eslint-config-js": "^0.3.0",
 		"@typescript-eslint/eslint-plugin": "^2.8.0",
 		"@typescript-eslint/parser": "^2.8.0",
