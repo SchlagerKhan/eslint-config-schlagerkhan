@@ -13,15 +13,16 @@
 	"scripts": {
 		"lint": "npx eslint ."
 	},
+	"dependencies": {
+		"@schlagerkhan/eslint-config-js": "^0.3.2"
+	},
 	"devDependencies": {
-		"@schlagerkhan/eslint-config-js": "^0.3.2",
 		"@typescript-eslint/eslint-plugin": "^2.8.0",
 		"@typescript-eslint/parser": "^2.8.0",
 		"eslint": "^6.7.0",
 		"eslint-config-xo-typescript": "^0.22.0"
 	},
 	"peerDependencies": {
-		"@schlagerkhan/eslint-config-js": "^0.3.1",
 		"@typescript-eslint/eslint-plugin": "^2.8.0",
 		"@typescript-eslint/parser": "^2.8.0",
 		"eslint": "^6.7.0",
