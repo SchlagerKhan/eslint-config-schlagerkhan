@@ -10,6 +10,7 @@ module.exports = {
 		'no-use-before-define': 0,
 		'no-restricted-syntax': 0,
 		'no-param-reassign': 0,
+		'no-negated-condition': 0,
 
 		'no-mixed-operators': 0,
 		'no-nested-ternary': 0,
@@ -20,6 +21,7 @@ module.exports = {
 		'global-require': 0,
 
 		'class-methods-use-this': 0,
+		'new-cap': 0,
 
 		'no-await-in-loop': 0,
 		'guard-for-in': 0,
@@ -29,6 +31,7 @@ module.exports = {
 		// Code Style
 		camelcase: 0,
 		'no-underscore-dangle': 0,
+		'no-implicit-coercion': 0,
 
 		'func-names': 0,
 		'arrow-parens': [1, 'always'],
@@ -42,5 +45,8 @@ module.exports = {
 
 		'lines-between-class-members': 0,
 		'object-curly-newline': [1, { multiline: true, consistent: true }],
+
+		'capitalized-comments': 0,
+		'no-warning-comments': 0,
 	},
 };

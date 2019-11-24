@@ -1,10 +1,10 @@
 module.exports = {
 	extends: [
-		// prettier-ignore
-		'airbnb-typescript',
+		'@schlagerkhan/js',
+		'xo-typescript',
 
-		require.resolve('./base'),
-
-		'@schlagerkhan/eslint-config-shared',
+		'plugin:@typescript-eslint/recommended',
+		require.resolve('./rules/typescript'),
+		'prettier/@typescript-eslint',
 	],
 };

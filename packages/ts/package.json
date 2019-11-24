@@ -15,11 +15,9 @@
 	},
 	"dependencies": {
 		"@schlagerkhan/eslint-config-js": "^0.2.15",
-		"@schlagerkhan/eslint-config-shared": "^0.2.14",
-		"eslint-config-airbnb-typescript": "^6.3.0"
-	},
-	"peerDependencies": {
 		"@typescript-eslint/eslint-plugin": "^2.8.0",
-		"@typescript-eslint/parser": "^2.8.0"
+		"@typescript-eslint/parser": "^2.8.0",
+		"eslint": "^6.7.0",
+		"eslint-config-xo-typescript": "^0.22.0"
 	}
 }
