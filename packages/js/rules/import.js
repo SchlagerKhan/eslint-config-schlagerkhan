@@ -7,5 +7,6 @@ module.exports = {
 		'import/no-extraneous-dependencies': 0,
 		'import/named': 0,
 		'import/no-cycle': 1,
+		'import/first': 1,
 	},
 };
