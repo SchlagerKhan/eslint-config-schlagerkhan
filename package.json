@@ -12,7 +12,8 @@
 		"lint": "npx lerna run lint",
 		"test": "npx eslint test",
 		"clean:pkg": "npx lerna clean --yes",
-		"clean:all": "yarn clean:pkg && rm yarn.lock && rm -rf node_modules"
+		"clean:all": "yarn clean:pkg && rm yarn.lock && rm -rf node_modules",
+		"deploy": "npx lerna publish"
 	},
 	"devDependencies": {
 		"@schlagerkhan/prettier-config": "^0.0.1",
