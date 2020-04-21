@@ -3,7 +3,7 @@
 		"packages/*",
 		"shared"
 	],
-	"version": "0.2.15",
+	"version": "0.4.1",
 	"npmClient": "yarn",
 	"useWorkspaces": true
 }
